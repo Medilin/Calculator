@@ -36,20 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
         else
         {
-            if(digit=="-"&&value!="0"&&calculator!!.operand1==0.0)
-            {
-                outputLabel!!.text=("-"+outputLabel!!.text as String)
-            }
-            else if(digit=="-")
-            {
-                outputLabel!!.text=(outputLabel!!.text as String)
-
-            }
-            else
-            {
-                outputLabel!!.text=(outputLabel!!.text as String+digit[0])
-            }
-
+            outputLabel!!.text=(outputLabel!!.text as String+digit[0])
 
         }
 
